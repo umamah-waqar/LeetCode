@@ -16,7 +16,6 @@ def quickSort(arr,pivotindex,p,q):
     quickSort(arr,pivot,pivot+1,q-1) 
     quickSort(arr,q+1,q+2,n-2)
 
-
 arr=[2,3,6,1,4,9,5,10] 
 n=len(arr)
 quickSort(arr,0,1,n-2)
