@@ -21,9 +21,7 @@ def edit_distance(s1, s2):
                     dp[i][j - 1],
                     dp[i - 1][j - 1]
                 )
-
     return dp[m][n]
-
 s1 = "food"
 s2 = "money"
 print("Edit distance:", edit_distance(s1, s2))
